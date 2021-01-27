@@ -129,5 +129,18 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
+#esse caminho eu criei
+#STATIC_PATH = os.path.join(os.path.dirname(__file__), 'static')
+#essa linha ja veio no Django
 STATIC_URL = '/static/'
 
+#esse caminho eu criei
+#STATICFILES_DIRS = (
+ #   STATIC_PATH,
+#)
+
+#documentação do Django
+STATICFILES_DIRS = [
+    BASE_DIR / "static",
+    '/var/www/static/',
+]
