@@ -1,25 +1,27 @@
 <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8" />
+<title>Cartinhas do Nosredna</title>
 {% load static %}
-<html>
-
-    <head>
-        <title>Cartinhas do Nosredna</title>
-    </head>
-
-    <body class="background">
+<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
         
-        <style>
-            .background{
-            background-attachment : fixed;
-            background-color: #87CEFA;
-            }
-        </style>
+</head>
+    <body>
+        <div class="fundo"><img src="{% static '/img/fundo.png' %}" alt="background"></div>
+        <div class="topnav"></div>
         <!--abaixo link da fonte pokémon personalizada-->
-        <a href="https://fontmeme.com/pt/fonte-de-pokemon/"><img src="https://fontmeme.com/permalink/210127/cc5370f2a77fb72d29c6311808fe9ff8.png" alt="fonte-de-pokemon"></a>
+        <a class="title">
+            <img src="https://fontmeme.com/permalink/210127/cc5370f2a77fb72d29c6311808fe9ff8.png" 
+            alt="fonte-de-pokemon">
+        </a>
         
-        <b>{{ msgnegrito }}</b><br />
-            
-        <img src="{% static '/img/back.png' %}" alt="TESTE DE IMAGEM">
+        <img src="{% static 'img/foto1.png' %}" alt="carta 1">
+        <img src="{% static '/img/foto2.png' %}" alt="carta 2">
+        <img src="{% static '/img/foto3.png' %}" alt="carta 3">
+        <img src="{% static '/img/foto4.png' %}" alt="carta 4">
+        <div class="footer"></div>
+           
     </body>
 
 </html>

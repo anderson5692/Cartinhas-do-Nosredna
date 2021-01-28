@@ -1,0 +1,48 @@
+.fundo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: url(fundo.png);
+    filter: blur(2px);   
+}
+
+.topnav {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    height: 124px;
+    left: 0px;
+    top: 0px;
+    background: #2084FA;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+}
+
+.title{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /*left: center;
+    top: center;*/
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 75px;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    height: 55px;
+    left: 0px;
+    top: 720px;
+    background: #2084FA;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+}
+
+
