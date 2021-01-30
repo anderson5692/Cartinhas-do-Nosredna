@@ -1,13 +1,3 @@
-.fundo {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0px;
-    top: 0px;
-    background: url(fundo.png);
-    filter: blur(2px);   
-}
-
 .topnav {
     margin: 0;
     padding: 0;
@@ -16,10 +6,22 @@
     height: 124px;
     left: 0px;
     top: 0px;
-    background: #2084FA;
-    border: 2px solid #000000;
-    box-sizing: border-box;
+    background: #000000;
+    
 }
+
+
+/*body com a técnica POSTSCRIPT COM CSS3*/
+body {
+    background: url(C:\Users\anderson\Documents\projeto1\projeto1\Scripts\static\img\fundo.png) no-repeat center top fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
 
 .title{
     text-align: center;
@@ -35,9 +37,9 @@
 }
 
 .footer {
-    position: absolute;
+    /*position: absolute;*/
     width: 100%;
-    height: 55px;
+    height: 30px;
     left: 0px;
     top: 720px;
     background: #2084FA;
