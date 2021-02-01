@@ -1,18 +1,15 @@
 <!DOCTYPE html>
 {% load static %}
 <html lang="pt-br">
+
 <head>
 <meta charset="UTF-8" />
 <title>Cartinhas do Nosredna</title>
 <link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
 <link rel="shortcut icon" href="{% static '/img/favicon.ico' %}">
-
-
 </head>
+
     <body>
-        
-        <!--<div class="fundo"><img src="{% static '/img/fundo.png' %}" alt="background"></div>
-        -->
         <div class="topnav">
         <!--abaixo link da fonte pokémon personalizada-->
         <a class="title">
@@ -20,21 +17,40 @@
             alt="fonte-de-pokemon">
         </a>
         </div>
-        <br/><br/><br/><br/><br/><br/><br/><br/>
-        <div class="holder">
-        <div class="cardbox" data-title="Charizard GX D.Pikachu">
-            <img src="{% static 'img/foto1.png' %}" alt="carta 1">
-        </div>
-        <div class="cardbox" data-title="Inteleon">
-            <img src="{% static '/img/foto2.png' %}" alt="carta 2">
-        </div>
-        <div class="cardbox" data-title="Pheromosa & buzzwole">
-            <img src="{% static '/img/foto3.png' %}" alt="carta 3">
-        </div>
-        <div class="cardbox" data-title="Umbreon GX">
-            <img src="{% static '/img/foto4.png' %}" alt="carta 4">
-        </div>
-    </div>
-        <div class="footer"></div> 
+            <br/><br/><br/><br/><br/><br/><br/>
+                <!--a div "holder" segura todos os cards-->
+            <div class="holder">
+                <div class="cardbox" data-title="Shining Charizard">
+                    <img src="{% static 'img/foto1.png' %}" alt="carta 1">
+                </div>
+                <div class="cardbox" data-title="Lugia">
+                    <img src="{% static '/img/foto2.png' %}" alt="carta 2">
+                </div>
+                <div class="cardbox" data-title="Shining Noctowl">
+                    <img src="{% static '/img/foto3.png' %}" alt="carta 3">
+                </div>
+                <div class="cardbox" data-title="Shining Kabutops">
+                    <img src="{% static '/img/foto4.png' %}" alt="carta 4">
+                </div>
+            </div>
+            <br/>
+
+            <div class="holder">
+                <div class="cardbox" data-title="Scyther">
+                    <img src="{% static '/img/foto5.png' %}" alt="carta 5">
+                </div>
+                <div class="cardbox" data-title="Mew">
+                    <img src="{% static '/img/foto6.png' %}" alt="carta 6">
+                </div>
+                <div class="cardbox" data-title="Articuno">
+                    <img src="{% static '/img/foto7.png' %}" alt="carta 7">
+                </div>
+                <div class="cardbox" data-title="Gyarados">
+                    <img src="{% static '/img/foto8.png' %}" alt="carta 8">
+                </div>
+            </div>
+            <br/><br/>
+
+        <footer></footer> 
     </body>
 </html>
