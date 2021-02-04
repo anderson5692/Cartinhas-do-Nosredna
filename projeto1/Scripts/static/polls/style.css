@@ -1,8 +1,8 @@
 .topnav {
     margin: 0;
     padding: 0;
-    position: fixed;
-    width: 100%;
+    position: absolute;
+    width: 100vw;
     height: 124px;
     left: 0%;
     top: 0;
@@ -19,25 +19,22 @@
 .holder {
     display: flex;
     justify-content: center;
-    border-radius: 10px;
-
 }
 
 .cardbox {
-    width: 500px;
+    width: 300px;
     margin: 5px;
     position: relative;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18pt;
     color:#000000;
-    background-color: aliceblue;
     /*border: 2px solid #000000;
     box-sizing: border-box;*/
 }
 
 .cardbox::after {
-    content: attr(data-title);
+    /*content: attr(data-title);*/
     position: absolute;
     width: 100%;
     bottom: -20px;
