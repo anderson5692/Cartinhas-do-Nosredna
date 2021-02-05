@@ -1,4 +1,4 @@
-.topnav {
+﻿.topnav {
     margin: 0;
     padding: 0;
     position: absolute;
@@ -29,8 +29,8 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18pt;
     color:#000000;
-    /*border: 2px solid #000000;
-    box-sizing: border-box;*/
+    border: 2px solid #000000;
+    box-sizing: border-box;
 }
 
 .cardbox::after {
