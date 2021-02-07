@@ -11,6 +11,7 @@
 </head>
 
     <body>
+        <!--Barra de título-->
         <div class="topnav">
         <!--abaixo link da fonte pokémon personalizada-->
         <a class="title">
@@ -18,47 +19,71 @@
             alt="fonte-de-pokemon">
         </a>
         </div>
+            <!--espaço entre o título e as primeiras barras-->
             <br/><br/><br/><br/><br/><br/><br/>
+
                 <!--a div "holder" segura todos os cards-->
             <div class="holder">
-                <div class="cardbox" data-title="R$4500">
+                <div class="cardbox">
                     <img src="{% static 'img/foto1.svg' %}" alt="carta 1">
+                    <div class="w3-container w3-center" style="background: #ffffff">
+                        <p>R$5000</p> 
+                    </div>
                 </div>
-                <div class="cardbox" data-title="R$2500">
+                <div class="cardbox">
                     <img src="{% static '/img/foto2.svg' %}" alt="carta 2">
+                    <div class="w3-container w3-center" style="background: #ffffff">
+                        <p>R$2500</p> 
+                    </div>
                 </div>
-                <div class="cardbox" data-title="Shining Noctowl">
+                <div class="cardbox">
                     <img src="{% static '/img/foto3.svg' %}" alt="carta 3">
+                    <div class="w3-container w3-center" style="background: #ffffff">
+                        <p>R$200</p> 
+                    </div>
                 </div>
-                <div class="cardbox" data-title="Shining Kabutops">
+                <div class="cardbox">
                     <img src="{% static '/img/foto4.svg' %}" alt="carta 4">
+                    <div class="w3-container w3-center" style="background: #ffffff">
+                        <p>R$200</p> 
+                    </div>
                 </div>
             </div>
             <br/>
 
+            <!--começa as 4 cartas de baixo, sempre organizadas em blocos de 4 cartas-->
             <div class="holder">
-                <div class="cardbox" data-title="Scyther">
+                <div class="cardbox">
                     <img src="{% static '/img/foto5.svg' %}" alt="carta 5">
+                    <div class="w3-container w3-center" style="background: #ffffff">
+                        <p>R$50</p> 
+                    </div>
                 </div>
-                <div class="cardbox" data-title="Mew">
+                <div class="cardbox">
                     <img src="{% static '/img/foto6.svg' %}" alt="carta 6">
+                    <div class="w3-container w3-center" style="background: #ffffff">
+                        <p>R$50</p> 
+                    </div>
                 </div>
-                <div class="cardbox" data-title="Articuno">
+                <div class="cardbox">
                     <img src="{% static '/img/foto7.svg' %}" alt="carta 7">
+                    <div class="w3-container w3-center" style="background: #ffffff">
+                        <p>R$200</p> 
+                    </div>
                 </div>
-                <div class="cardbox" data-title="">
+                <div class="cardbox">
                     <img src="{% static '/img/foto8.svg' %}" alt="carta 8">
-                    <div class="w3-container w3-center" data-title=""style="background: #ffffff">
-                        <p>R$500</p> 
-                      </div>
+                    <div class="w3-container w3-center" style="background: #ffffff">
+                        <p>R$50</p> 
+                    </div>
                 </div>
             </div>
-            <br/><br/>
+
+            <!--espaço entre as cartas e o footer, para o mesmo não cobrir as cartas-->
+            <br/><br/><br/>
 
         <footer>
-            <div class="icone">
-                <img src="{% static '/img/faceicon.svg' %}" alt="">
-            </div> 
+            <p>CONTATO:(99)99999-9999</p> 
         </footer>
     </body>
 </html>
